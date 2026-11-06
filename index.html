@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Syrine Job Application Assistant: a personal tool for preparing tailored German applications using authorized Google Docs and Drive access.">
+  <title>Syrine Job Application Assistant</title>
+  <style>
+    :root{color-scheme:light;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#203047;background:#f5f7fa;line-height:1.7}
+    *{box-sizing:border-box}body{margin:0}main{max-width:820px;margin:64px auto;padding:48px;background:#fff;border:1px solid #dce3eb;border-radius:12px}
+    .eyebrow{font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;color:#52677c;font-weight:650}h1{font-size:clamp(2rem,5vw,3rem);line-height:1.15;letter-spacing:-.035em;margin:16px 0 24px}h2{font-size:1.2rem;margin:32px 0 8px}p{margin:12px 0}a{color:#175da1;text-underline-offset:3px;overflow-wrap:anywhere}a:focus-visible{outline:3px solid #b47b00;outline-offset:4px}nav{display:flex;gap:24px;flex-wrap:wrap;margin-top:32px;padding-top:24px;border-top:1px solid #dce3eb}footer{font-size:.9rem;color:#52677c;margin-top:32px}@media(max-width:600px){main{margin:16px;padding:26px}}
+  </style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">Personal application preparation</p>
+  <h1>Syrine Job Application Assistant</h1>
+  <p>A personal automation tool operated by Syrine Dhifellaoui to evaluate vacancies and prepare individually tailored German CVs and cover letters.</p>
+  <h2>What the assistant does</h2>
+  <p>The assistant compares job requirements with verified experience, selects relevant evidence, and prepares application documents. It checks the content and exported PDFs before they are used in an application.</p>
+  <h2>Why it connects to Google</h2>
+  <p>With the account owner's authorization, the assistant reads designated CV and cover-letter references in Google Docs, creates copies in Google Drive, edits those copies for a vacancy, and exports editable DOCX files and final PDFs. The master documents remain the references for future applications.</p>
+  <h2>How information is processed</h2>
+  <p>The workflow runs in a locally hosted n8n installation. Selected reference-document content, candidate facts and vacancy information are sent to OpenAI's API for matching, drafting and quality review. Documents are stored in Google Drive and local application storage; workflow execution records may also contain processed information.</p>
+  <p>This website provides information about the personal tool. It does not provide public account registration or collect application documents. Read the privacy policy for details about data handling and revoking Google access.</p>
+  <nav aria-label="Information and contact">
+    <a href="privacy.html">Privacy policy</a>
+    <a href="mailto:syrine.dhifellaoui9@gmail.com">Contact the operator</a>
+  </nav>
+  <footer>Operated by Syrine Dhifellaoui · Personal project, independent of Google and n8n.</footer>
+</main>
+</body>
+</html>
